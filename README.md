@@ -1,6 +1,6 @@
 # cache-mailer
 
-Simple email sender with handlebars
+Simple email sender with handlebars / ejs
 
 ## Installation
 ```sh
