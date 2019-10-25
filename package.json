@@ -1,0 +1,47 @@
+{
+  "name": "cache-mailer",
+  "description": "Simple email sender with handlebars, ejs",
+  "version": "0.5.0",
+  "author": "Junmin Ahn <junminahn@outlook.com>",
+  "license": "MIT",
+  "keywords": [
+    "simple",
+    "email",
+    "mailer",
+    "cache",
+    "handlebars",
+    "ejs"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smartahn/cache-mailer.git"
+  },
+  "scripts": {
+    "test": "mocha --exit test.js"
+  },
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "index.js",
+    "helpers.js"
+  ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "dependencies": {
+    "html-to-text": "^5.1.1",
+    "nodemailer": "^6.3.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.1",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "handlebars": "^4.4.5",
+    "mocha": "^5.2.0"
+  },
+  "peerDependencies": {
+    "ejs": "^2.7.1",
+    "handlebars": "^4.4.5"
+  }
+}
